@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.notifications-area{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    margin:0 5%;
+}
+
+.notifications-area-trans{
+    transition: 0.5s all;
+}
+
+.notifications-area div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1vh 1vw !important;
+    height: 8vh!important;
+    margin: 1vh 0;
+    
+}
+
+.nav-title{
+    color:white ;
+    padding-top: 2rem;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+
+}
+
+.title-nav-1{
+    margin-right:0.5rem ;
+}
+
+.title-nav-2{
+    color: #ff9a02;
+    font-weight: 700;
+
+}
+
+.tools-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.tools-area a{
+    color: #e5dafa;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    font-size: 1.27rem;
+    font-weight: 400;
+    transition: all;
+
+}
+
+.tools-area a:hover{
+    color: white;
+
+}
+
+
+.lateral-navbar{
+    height:100vh;
+    align-items: center;
+    display: flex;
+    background-color: #5f27cd;
+    flex-direction: column;
+
+}
+
+.nav-container{
+    position:fixed;
+    width: 17%;
+    
+}
+
+.mobile-lateral-navbar{
+    width: 100%;
+    display: flex!important;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.router-view-comp{
+    min-width: 83%;
+    margin-left: 17%;
+    
+}
+
+.responsive-nav-trigger{
+    background: #e9e6ee;
+    border-bottom: 1px #c6c1ce;
+    padding: 1rem;
+    
+  }
+
+@media screen and (max-width: 780px) {
+    .router-view-comp{
+        min-width: 100%;
+        margin-left: 0;
+        margin-top: 6rem;
+    }
+
+    .lateral-navbar{
+        display: none;
+    }
+
+    .nav-container{
+        width: 100%;
+        top:0;
+    }
+}
+
+
